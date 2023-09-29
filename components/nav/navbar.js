@@ -50,7 +50,6 @@ const NavBar = () => {
       });
 
       router.push("/login");
-      // console.log(await magic.user.isLoggedIn()); // => `false`
     } catch (error) {
       console.error("Error logging out:", error);
     }
