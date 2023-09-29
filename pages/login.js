@@ -57,6 +57,7 @@ const Login = () => {
           });
 
           const loggedInResponse = await response.json();
+          console.log({ loggedInResponse });
           if (loggedInResponse.done) {
             router.push("/");
           } else {
